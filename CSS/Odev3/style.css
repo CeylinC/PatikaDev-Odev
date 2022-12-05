@@ -1,0 +1,107 @@
+body{
+    overflow-x: hidden;
+    margin: 0;
+    padding: 0;
+}
+nav{
+    width: 100%;
+}
+nav ul{
+    width: 95%;
+    list-style-type: none;
+    display: inline-flex;
+    justify-content: end;
+    align-items: center;
+}
+nav ul li{
+    margin-left: 15px;
+}
+nav ul li a{
+    text-decoration: none;
+}
+nav li:nth-child(3){
+    opacity: 0.5;
+    width: 32px;
+    height: 32px;
+    padding: 5px;
+}
+nav li:nth-child(3):hover{
+    border-radius: 50%;
+    background-color: rgb(227, 227, 227);
+}
+nav li img{
+    border-radius: 50%;
+}
+nav li img:hover{
+    box-shadow: 0 0 5px 5px rgba(0,0,0,0.2);
+}
+.container{
+    height: 77vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.arama{
+    display: inline-flex;
+    border: 1px solid rgb(219, 219, 219);
+    padding: 5px;
+    border-radius: 30px;
+    margin-top: 30px;
+}
+.arama:hover{
+    box-shadow: 0 1px 5px 0px rgba(0, 0, 0, 0.2);
+}
+.arama .buyutec{
+    width: 32px;
+    opacity: 0.5;
+}
+.arama .mikrofon{
+    width: 32px;
+}
+.arama .kamera{
+    width: 32px;
+}
+.arama .klavye{
+    width: 32px;
+}
+.arama input[type="text"]{
+    font-size: 14px;
+    outline: none;
+    border: none;
+    width: 480px;
+}
+.butonlar{
+    margin-top: 20px;
+}
+.butonlar button{
+    border: 0;
+    padding: 10px;
+    margin-right: 10px;
+}
+footer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    background-color: rgb(228, 228, 228);
+}
+footer .row-1{
+    justify-content: start;
+    width: 100%;
+    border-bottom: 1px solid rgb(169, 169, 169);
+    padding: 10px 0;
+}
+footer .row-2{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+}
+footer .row-2 ul{
+    display: inline;
+    padding: 0;
+}
+footer .row-2 ul li{
+    margin-right: 25px;
+    display: inline;
+}
